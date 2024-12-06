@@ -10,14 +10,13 @@ export default function OnboardingPage() {
               alt=""
             />
             <h1 className="text-4xl font-semibold">
-              {/* Real-self digital human */}
+              {/* True Me Digital Man */}
               真我数字人
             </h1>
           </div>
-          <p className="text-sm text-[#131313]">
+          <p className="text-sm text-gray-500 font-light">
             30秒视频，1分钟轻松复刻专属您的数字人分身
-            {/* 30-second video, 1 minute to easily reproduce your own digital
-            avatar */}
+            {/* 30 seconds video, 1 minute easy copy exclusive to your digital doppelganger */}
           </p>
         </div>
 
@@ -38,13 +37,13 @@ export default function OnboardingPage() {
 
             <div className="flex flex-col space-y-1">
               <label htmlFor="captcha" className="text-sm font-medium mb-1">
-                图形验证码 {/*Image Captcha */}
+                图形验证码 {/*Graphic verification code*/}
               </label>
               <div className="flex items-center gap-3">
                 <input
                   type="text"
                   id="captcha"
-                  placeholder="请输入图形验证码" /*Please enter the image captcha */
+                  placeholder="请输入图形验证码" /*Please enter the code below */
                   className="bg-[#F5F5F5] border-none rounded-md px-4 py-3 text-sm focus:outline-none flex-1"
                 />
                 {/* Placeholder for captcha image */}
@@ -57,8 +56,8 @@ export default function OnboardingPage() {
             </div>
 
             <div className="flex flex-col space-y-1">
-              <label htmlFor="phone" className="text-sm font-bold">
-                验证码 {/*Captcha */}
+              <label htmlFor="verificationCode" className="text-sm font-bold">
+                验证码 {/*verification code */}
               </label>
               <div className="relative w-full">
                 <input
@@ -102,6 +101,9 @@ export default function OnboardingPage() {
               </label>
             </div>
           </div>
+          <p className="text-xs text-gray-500 text-center">
+            淮安向上进化文化传媒有限公司 版权所有 苏ICP备2023007175号
+          </p>
         </form>
       </div>
     </div>

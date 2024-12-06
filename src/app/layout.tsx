@@ -29,8 +29,9 @@ const mtn = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "real-self-digital-human",
-  description: "learn, earn and master your money",
+  title: "True Me Digital Man",
+  description:
+    "30 seconds video, 1 minute easy copy exclusive to your digital doppelganger",
 };
 
 export default function RootLayout({
