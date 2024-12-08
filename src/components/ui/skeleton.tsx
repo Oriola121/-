@@ -1,4 +1,4 @@
-import { cn } from "@real-self-digital-human/lib/utils";
+import { cn } from "@True-Me-Digital-Man/lib/utils";
 
 function Skeleton({
   className,

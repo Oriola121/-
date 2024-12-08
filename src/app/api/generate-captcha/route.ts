@@ -1,6 +1,7 @@
+import { NextApiRequest, NextApiResponse } from "next";
 import svgCaptcha from "svg-captcha";
 
-export default function handler(req, res) {
+export default function handler(req: NextApiRequest, res: NextApiResponse) {
   if (req.method === "GET") {
     const captcha = svgCaptcha.create({
       size: 6, // Number of characters

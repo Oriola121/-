@@ -2,9 +2,9 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { UserProvider } from "@auth0/nextjs-auth0/client";
 import localFont from "next/font/local";
-import { ThemeProvider } from "@real-self-digital-human/components";
-import { Toaster } from "@real-self-digital-human/components/ui/toaster";
-import { cn } from "@real-self-digital-human/lib/utils";
+import { ThemeProvider } from "@True-Me-Digital-Man/components";
+import { Toaster } from "@True-Me-Digital-Man/components/ui/toaster";
+import { cn } from "@True-Me-Digital-Man/lib/utils";
 
 const DouyinSans = localFont({
   src: [

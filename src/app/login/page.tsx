@@ -1,14 +1,10 @@
 export default function OnboardingPage() {
   return (
     <div className="h-screen w-full bg-pinkGradient bg-cover m-0 p-0 overflow-hidden flex items-center justify-center">
-      <div className="w-[35%] shadow-xl h-full bg-white text-black px-10 py-3 space-y-20">
+      <div className="w-[35%] shadow-xl h-full bg-white text-black p-10 space-y-20">
         <div className="flex flex-col items-center space-y-2">
           <div className="flex items-center gap-4">
-            <img
-              src="uploads/logo.png"
-              className="w-[50px] aspect-square"
-              alt=""
-            />
+            <img src="uploads/logo.png" className="w-[50px] aspect-square" />
             <h1 className="text-4xl font-semibold">
               {/* True Me Digital Man */}
               真我数字人

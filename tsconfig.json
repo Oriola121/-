@@ -17,7 +17,7 @@
       }
     ],
     "paths": {
-      "@real-self-digital-human/*": ["./src/*"]
+      "@True-Me-Digital-Man/*": ["./src/*"]
     },
     "strict": false,
     "target": "es2015"

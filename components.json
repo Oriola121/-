@@ -1,0 +1,20 @@
+{
+  "$schema": "https://ui.shadcn.com/schema.json",
+  "style": "new-york",
+  "rsc": true,
+  "tsx": true,
+  "tailwind": {
+    "config": "tailwind.config.ts",
+    "css": "src/app/globals.css",
+    "baseColor": "zinc",
+    "cssVariables": true,
+    "prefix": ""
+  },
+  "aliases": {
+    "components": "@True-Me-Digital-Man/components",
+    "utils": "@True-Me-Digital-Man/lib/utils",
+    "ui": "@True-Me-Digital-Man/components/ui",
+    "lib": "@True-Me-Digital-Man/lib",
+    "hooks": "@True-Me-Digital-Man/hooks"
+  }
+}

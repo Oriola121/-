@@ -5,22 +5,19 @@ import { Slot } from "@radix-ui/react-slot";
 import { VariantProps, cva } from "class-variance-authority";
 import { PanelLeft } from "lucide-react";
 
-import { useIsMobile } from "@real-self-digital-human/hooks/use-mobile";
-import { cn } from "@real-self-digital-human/lib/utils";
-import { Button } from "@real-self-digital-human/components/ui/button";
-import { Input } from "@real-self-digital-human/components/ui/input";
-import { Separator } from "@real-self-digital-human/components/ui/separator";
-import {
-  Sheet,
-  SheetContent,
-} from "@real-self-digital-human/components/ui/sheet";
-import { Skeleton } from "@real-self-digital-human/components/ui/skeleton";
+import { useIsMobile } from "@True-Me-Digital-Man/hooks/use-mobile";
+import { cn } from "@True-Me-Digital-Man/lib/utils";
+import { Button } from "@True-Me-Digital-Man/components/ui/button";
+import { Input } from "@True-Me-Digital-Man/components/ui/input";
+import { Separator } from "@True-Me-Digital-Man/components/ui/separator";
+import { Sheet, SheetContent } from "@True-Me-Digital-Man/components/ui/sheet";
+import { Skeleton } from "@True-Me-Digital-Man/components/ui/skeleton";
 import {
   Tooltip,
   TooltipContent,
   TooltipProvider,
   TooltipTrigger,
-} from "@real-self-digital-human/components/ui/tooltip";
+} from "@True-Me-Digital-Man/components/ui/tooltip";
 import { PiCaretDoubleLeft } from "react-icons/pi";
 
 const SIDEBAR_COOKIE_NAME = "sidebar:state";

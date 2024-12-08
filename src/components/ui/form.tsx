@@ -12,8 +12,8 @@ import {
   useFormContext,
 } from "react-hook-form";
 
-import { cn } from "@real-self-digital-human/lib/utils";
-import { Label } from "@real-self-digital-human/components/ui/label";
+import { cn } from "@True-Me-Digital-Man/lib/utils";
+import { Label } from "@True-Me-Digital-Man/components/ui/label";
 
 const Form = FormProvider;
 

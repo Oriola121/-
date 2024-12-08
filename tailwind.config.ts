@@ -12,7 +12,6 @@ const config: Config = {
       backgroundImage: {
         pinkGradient: "url('/uploads/pinkGradient.png')",
       },
-
       colors: {
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",

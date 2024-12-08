@@ -1,6 +1,6 @@
 "use client";
 
-import { useToast } from "@real-self-digital-human/hooks/use-toast";
+import { useToast } from "@True-Me-Digital-Man/hooks/use-toast";
 import {
   Toast,
   ToastClose,
@@ -8,7 +8,7 @@ import {
   ToastProvider,
   ToastTitle,
   ToastViewport,
-} from "@real-self-digital-human/components/ui/toast";
+} from "@True-Me-Digital-Man/components/ui/toast";
 export function Toaster() {
   const { toasts } = useToast();
 

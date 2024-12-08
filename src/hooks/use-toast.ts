@@ -6,7 +6,7 @@ import * as React from "react";
 import type {
   ToastActionElement,
   ToastProps,
-} from "@real-self-digital-human/components/ui/toast";
+} from "@True-Me-Digital-Man/components/ui/toast";
 
 const TOAST_LIMIT = 1;
 const TOAST_REMOVE_DELAY = 1000000;

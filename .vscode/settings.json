@@ -4,5 +4,5 @@
     "**/node_modules": true
   },
   "typescript.tsdk": "node_modules/typescript/lib",
-  "cSpell.words": ["lucide", "real-self-digital-human"]
+  "cSpell.words": ["lucide", "True-Me-Digital-Man"]
 }
