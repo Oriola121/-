@@ -8,10 +8,10 @@ import {
   TabsList,
   TabsTrigger,
 } from "@True-Me-Digital-Man/components/ui/tabs";
-import ImageClone from "./image-clone";
-import ReusableSheet from "./reusable-sheet";
+import ImageClone from "./image-cloning/image-clone";
+import ReusableSheet from "./image-cloning/reusable-sheet";
 import { useState } from "react";
-import CreateVideo from "./create-video";
+import CreateVideo from "./image-cloning/create-video";
 import { ScrollArea } from "@True-Me-Digital-Man/components/ui/scroll-area";
 
 export default function Page() {
