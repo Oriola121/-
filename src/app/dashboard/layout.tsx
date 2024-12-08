@@ -13,7 +13,7 @@ import AppSidebar from "@True-Me-Digital-Man/components/sidebar/app-sidebar";
 export default function Layout({ children }: PropsWithChildren) {
   return (
     <div className="h-screen w-full bg-white">
-      <header className="flex items-center justify-between px-6 py-3 shadow-md">
+      <header className="flex items-center justify-between px-6 py-3 shadow-lg z-50">
         <div className="flex items-center space-x-4">
           <img src="uploads/logo.png" className="w-[30px] aspect-square" />
           <h1 className="text-lg font-bold">真我数字人</h1>

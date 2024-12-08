@@ -10,18 +10,30 @@ import {
 } from "@True-Me-Digital-Man/components/ui/tabs";
 import ImageClone from "./image-clone";
 import ReusableSheet from "./reusable-sheet";
+import { useState } from "react";
+import CreateVideo from "./create-video";
+import { ScrollArea } from "@True-Me-Digital-Man/components/ui/scroll-area";
 
 export default function Page() {
+  const [letsCreateVideo, setLetsCreateVideo] = useState(false);
+  const handleCreateVideo = () => {
+    setLetsCreateVideo(!letsCreateVideo);
+  };
   return (
     <>
       <div className="flex items-center justify-between px-8 my-4">
         <h1 className="text-xl font-bold">形象克隆</h1>
-        <button className="bg-orange-500 px-4 py-3 rounded-lg flex items-center gap-3 text-white text-sm">
+        <button
+          className="bg-orange-500 px-4 py-3 rounded-lg flex items-center gap-3 text-white text-sm"
+          onClick={handleCreateVideo}
+        >
           <PiPlusBold color="white" />
           创建视频
         </button>
       </div>
+
       <Separator />
+
       <div className="px-8 py-5 space-y-5">
         <ReusableSheet
           trigger={
@@ -55,6 +67,16 @@ export default function Page() {
           <TabsContent value="公共形象"></TabsContent>
         </Tabs>
       </div>
+      {letsCreateVideo && (
+        <div
+          className="fixed inset-0 bg-white z-10 h-[90vh] top-[10.5%]"
+          onClick={(e) => e.stopPropagation()} // Prevents overlay click when clicking inside the modal
+        >
+          <ScrollArea className="h-full w-full">
+            <CreateVideo onClose={handleCreateVideo} />
+          </ScrollArea>
+        </div>
+      )}
     </>
   );
 }
