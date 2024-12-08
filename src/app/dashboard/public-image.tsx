@@ -21,7 +21,7 @@ export default function PublicImage() {
   };
 
   return (
-    <ScrollArea className="h-[500px] w-full py-4">
+    <ScrollArea className="h-[430px] w-full py-4">
       <div className="grid grid-cols-2 gap-4">
         {exampleImage.map((image, index) => (
           <div

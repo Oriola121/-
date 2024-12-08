@@ -8,7 +8,7 @@ import PublicImage from "./public-image";
 
 export default function PickDigitalPeople() {
   return (
-    <div className="h-[97%] w-[35%] bg-white p-4 space-y-2">
+    <div className="h-[85%] w-[35%] bg-white p-4 space-y-2">
       <h1 className="text-xl font-bold">选择数字人</h1>
       <Tabs defaultValue="我的形象">
         <TabsList className="flex justify-between items-center w-full h-12 bg-gray-100 cursor-pointer">
